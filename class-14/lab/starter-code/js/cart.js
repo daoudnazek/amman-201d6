@@ -36,9 +36,11 @@ function showCart() {
     var deleteLink = document.createElement('td');
     var quantity = document.createElement('td');
     var item = document.createElement('td');
+    
     deleteLink.textContent = 'X';
     quantity.textContent = cart.items[i].quantity;
     item.textContent = cart.items[i].product;
+  
     row.appendChild(deleteLink);
     row.appendChild(quantity);
     row.appendChild(item);

@@ -39,7 +39,7 @@ nav ul li a {
 }
 legend{
     color:#175676 ;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     padding: 30px;
 }
@@ -67,4 +67,28 @@ th{
     padding-right: 10px;
     font-size: 20px;
     font-weight: bold;
+}
+
+input[value="Add To Cart"]{
+   background-color:blanchedalmond;
+   color:black;
+   font-weight: 5em;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+   
+}
+#cart {
+    margin-left: 40%;
+}
+input[value="Add To Cart"]:hover{
+    background-color: gold;
+    border-radius: 30%;
+}
+input[value="Add To Cart"]:active{
+   background-color: orange;
+}
+ td:hover{
+ color: red;
+
 }
