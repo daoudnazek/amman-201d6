@@ -1,1 +1,70 @@
 /* TODO: Make it awesome */
+body{
+    background-color: #CCE6F4;
+}
+h1{
+    color:#D62839;
+    font-size: 100px;
+    text-align: center;
+    border: 3px solid #175676;
+}
+li{
+    color: #175676;
+    font-size: 30px;
+    margin: 10px;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 35px;
+    margin: 20px;
+    margin-right: 30px;
+    margin-left:30px ;
+}
+nav ul li a {
+    color: #D62839;
+    text-decoration:none;
+}
+.card header h1{
+    font-size: 60px;
+    padding: 20px;
+}
+#catalog{
+    padding: 50px;
+    background-color: #BA324F;
+}
+.card #cartContents{
+    color:#D62839;
+    background-color: #4BA3C3;
+    border  : 3px solid #BA324F;
+}
+legend{
+    color:#175676 ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+footer{
+    margin-top: 40px;
+    width:100%;
+    color:#175676 ;
+}
+label{
+    color: #175676;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+td{
+    color: #175676;
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+th{
+    color: #D62839;
+    margin: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
