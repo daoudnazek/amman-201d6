@@ -68,7 +68,7 @@ function updateCartPreview() {
   // TODO: Add a new element to the cartContents div with that information
   var content = document.getElementById('cartContents');
   var list = document.createElement('li');
-  list.textContent = quantity +' ' + option ;
+  list.textContent = quantity + ' ' + option + 's' ;
   content.appendChild(list);
 }
 
